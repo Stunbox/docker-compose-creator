@@ -77,7 +77,7 @@ services:
       - vhost.d:/etc/nginx/vhost.d
       - ./html:/usr/share/nginx/html
     environment:
-      - DEFAULT_EMAIL=admin@gmail.com     #debe ser un email válido
+      - DEFAULT_EMAIL=stunbox92@gmail.com     #debe ser un email válido
       - NGINX_PROXY_CONTAINER=nginx-proxy
 
 volumes:
